@@ -1,0 +1,25 @@
+.button-newAd {
+    background-color: #f9be01;
+    border-color: #f9be01;
+    color: #191c1e;
+    border-radius: 6px;
+    /* Poner texto en mayúsculas */
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .button-newAd:hover {
+    background-color: #fcde7d;
+  }
+  
+  :disabled{
+      cursor: not-allowed
+  }
